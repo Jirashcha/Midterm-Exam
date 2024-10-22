@@ -7,17 +7,7 @@
 # School Management System
 
 ## Overview
-The School Management System is a TypeScript application that helps manage student and teacher data, calculate grades, and provides dynamic interactivity on the front end using jQuery. The system allows administrators to track students, assign grades, and display information efficiently.
-
-## Features
-- **Student Management**: Create, update, and calculate average grades for students.
-- **Teacher Management**: Assign grades to students.
-- **Admin Interface**: Admin information display.
-- **Database Simulation**: Store and retrieve students and teachers using a generic database class.
-- **Asynchronous Data Fetching**: Simulate fetching student data from an API.
-- **Array Manipulation**: Utilize array methods to process student data effectively.
-- **Error Handling**: Robust JSON parsing with error handling.
-- **Dynamic UI Interaction**: Simulate adding student names to a list using jQuery.
+You are tasked with creating a School Management System that helps manage student and teacher data, calculate grades, and provide some dynamic interactivity on the front end using jQuery. You must use TypeScript and jQuery to implement this system.
 
 ## Technologies Used
 - TypeScript
@@ -25,24 +15,24 @@ The School Management System is a TypeScript application that helps manage stude
 - Node.js
 
 ## Installation
-- 1. Clone the repository:
+- Clone the repository:
    ```bash
    git clone https://github.com/yourusername/Midterm-Exam.git
 
-- 2. Navigate to the project directory
+- Navigate to the project directory
    ```bash
     cd Midterm-Exam
 
-- 3.Install dependencies:
+- Install dependencies:
    ```bash
     npm install
 
 ## Usage
 - To compile the TypeScript files and run the application, use the following commands:
-- 1. Compile the TypeScript file:
+- Compile the TypeScript file:
    ```bash
     npx tsc schoolManagement.ts
-- 2. Run the compiled JavaScript file:
+- Run the compiled JavaScript file:
    ```bash
     node schoolManagement.js
 
